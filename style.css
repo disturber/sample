@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    width: 100%;
+    background: #F0F0F0;
+/*    overflow: hidden;*/
+}
+
+#main{
+    width: 720px;
+    background: #F0F0F0;
+    margin: 106px auto;
+}
+
+#menu{
+    margin-left: 36px;
+}
+
+#menu ul{
+    list-style-type: none;
+}
+
+#menu ul li{
+    display: inline-block;
+    padding-right: 15px;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    font-family: Helvetica;
+    font-size: 24px;
+    color:#d8dce2;
+}
+
+
+#menu ul li a:hover{
+    color:black ;
+}
+
+#head{
+    width: 720px;
+    height: 106px;
+    margin-top: 39px;
+    position: relative;
+    background-color: #2d4687;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#head::after {
+    content: '';
+    position: absolute;
+    left: 50px;
+    bottom: 106px;
+    border: 17px solid transparent;
+    border-bottom: 14px solid #2d4687;
+}
+
+#logo img{
+    position: relative;
+    margin-top: 23px;
+    margin-left: 37px;
+    float: left;
+}
+
+#all{
+    margin-top: 24px;
+    margin-left: 115px;
+    position: absolute;
+}
+
+#title p{
+    color:#fff;
+    font-family: Helvetica;
+    font-size: 24px;
+}
+
+#subtitle p{
+    font-size: 18px;
+    margin-top: 7px;
+    color:#acb2c9;
+    font-family: Helvetica;
+}
+
+#circle{
+    margin-top: 19px;
+    margin-left: 626px;
+    position: absolute;
+}
+
+
+#forma{
+    position: relative;
+    height: 323px;
+    width: 720px;
+    background-color: #fff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#email{
+    position: absolute;
+    font-size: 18px;
+    color:#d8dce2;
+    font-family: Helvetica;
+    left:38px;
+    top:64px;
+}
+
+#line, #line2{
+    width: 646px;
+    border-bottom: 2px solid #d8dce2;
+    position: absolute;
+}
+
+#line{
+    top:97px;
+    left:38px;
+}
+
+#pass{
+    position: absolute;
+    font-size: 18px;
+    color:#d8dce2;
+    font-family: Helvetica;
+    left:38px;
+    top:144px;
+}
+
+#line2{
+    top:177px;
+    left:38px;
+}
+
+#box{
+    position: relative;    
+    left:38px;
+    top:249px;
+    float: left;
+}
+
+#box p{
+    font-size: 18px;
+    color:#d8dce2;
+    font-family: Helvetica;
+    float: right;
+    position: relative;
+    top: 5px;
+    left: 23px;
+}
+
+
+#login p{
+    position: absolute;
+    width: 120px;
+    height: 44px;
+    font-size: 18px;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: white;
+    background-color: #339de5;
+    text-align: center;
+    line-height: 2.4;
+    border-radius: 5px;
+    left: 564px;
+    top: 239px;
+
+}
+
+#circle, #login, #box:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
